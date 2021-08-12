@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.author       = { 'devtodev' => 'info@devtodev.com' }
   s.source       = {
     :git => 'https://github.com/devtodev-analytics/ios-sdk-2.0.git',
-    :branch => 'master',
+    :branch => 'main',
     :tag => 'v' + s.version.to_s
   }
 
