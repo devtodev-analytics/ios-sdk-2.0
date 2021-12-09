@@ -1,0 +1,6 @@
+framework module DTDMessaging {
+    umbrella header "DTDMessaging.h"
+    export *
+    module * { export * }
+}
+module DTDMessaging.Swift { header "DTDMessaging-Swift.h" }

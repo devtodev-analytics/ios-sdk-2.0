@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "DTDMessaging"
-  s.version      = "2.1.0"
+  s.version      = "2.1.1"
   s.summary      = "DTDMessaging for iOS"
   s.description  = <<-DESC
   DTDMessaging add-on for the DTDAnalytics platform allows you to work with push notifications.
