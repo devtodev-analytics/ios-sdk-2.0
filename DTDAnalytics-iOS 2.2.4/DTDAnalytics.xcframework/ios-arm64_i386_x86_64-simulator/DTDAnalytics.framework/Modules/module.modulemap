@@ -1,4 +1,0 @@
-framework module DTDAnalytics {
-  header "DTDAnalytics-Swift.h"
-  requires objc
-}
