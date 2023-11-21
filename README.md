@@ -1,6 +1,6 @@
 Latest Version
 --------------
-##### _July 18, 2023_ - [v2.2.6](https://github.com/devtodev-analytics/ios-sdk-2.0/releases/latest)
+##### _November 21, 2023_ - [v2.3.0](https://github.com/devtodev-analytics/ios-sdk-2.0/releases/latest)
 
 
 Installation

@@ -1,0 +1,11 @@
+framework module DTDAnalytics {
+  umbrella header "DTDAnalytics.h"
+
+  export *
+  module * { export * }
+}
+
+module DTDAnalytics.Swift {
+    header "DTDAnalytics-Swift.h"
+    requires objc
+}
