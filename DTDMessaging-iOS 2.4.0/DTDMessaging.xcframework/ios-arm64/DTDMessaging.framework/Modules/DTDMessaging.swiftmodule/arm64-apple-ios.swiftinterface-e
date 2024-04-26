@@ -1,0 +1,120 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)
+// swift-module-flags: -target arm64-apple-ios9.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name DTDMessaging
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+@_exported import DTDMessaging
+import Foundation
+import Swift
+import UIKit
+import UserNotifications
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+@objc public protocol DTDMessagingDelegate {
+  @objc optional func didRegisterForRemoteNotifications(with deviceToken: Foundation.Data)
+  @objc optional func didFailToRegisterForRemoteNotifications(with error: any Swift.Error)
+  @objc optional func didReceiveInvisibleNotification(with message: DTDMessaging.DTDMessage)
+  @objc optional func didReceiveForegroundNotification(with message: DTDMessaging.DTDMessage)
+  @objc optional func didOpenRemoteNotification(with message: DTDMessaging.DTDMessage, and buttonClicked: DTDMessaging.DTDActionButton?)
+}
+@_hasMissingDesignatedInitializers @objc public class DTDMessage : ObjectiveC.NSObject {
+  @objc final public let payload: [Swift.AnyHashable : Any]
+  @objc public var actionType: DTDMessaging.DTDActionType {
+    @objc get
+  }
+  @objc public var actionString: Swift.String? {
+    @objc get
+  }
+  @objc public var badge: Swift.Int {
+    @objc get
+  }
+  @objc public var category: Swift.String? {
+    @objc get
+  }
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers @objc public class DTDActionButton : ObjectiveC.NSObject {
+  @objc public var actionType: DTDMessaging.DTDActionType {
+    get
+  }
+  @objc public var actionString: Swift.String? {
+    get
+  }
+  @objc public var buttonId: Swift.String {
+    @objc get
+  }
+  @objc public var text: Swift.String {
+    @objc get
+  }
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class DTDNotificationOptions : ObjectiveC.NSObject, Swift.OptionSet {
+  @objc final public let rawValue: Swift.UInt
+  @objc required public init(rawValue: Swift.UInt)
+  @objc public static let DTDNotificationOptionBadge: DTDMessaging.DTDNotificationOptions
+  @objc public static let DTDNotificationOptionSound: DTDMessaging.DTDNotificationOptions
+  @objc public static let DTDNotificationOptionAlert: DTDMessaging.DTDNotificationOptions
+  @objc public static let DTDNotificationOptionCarPlay: DTDMessaging.DTDNotificationOptions
+  @available(iOS 12.0, *)
+  @objc public static let DTDNotificationOptionCriticalAlert: DTDMessaging.DTDNotificationOptions
+  @available(iOS 12.0, *)
+  @objc public static let DTDNotificationOptionProvidesSettings: DTDMessaging.DTDNotificationOptions
+  @available(iOS 12.0, *)
+  @objc public static let DTDNotificationOptionProvisional: DTDMessaging.DTDNotificationOptions
+  @available(iOS 13.0, *)
+  @objc public static let DTDNotificationOptionAnnouncement: DTDMessaging.DTDNotificationOptions
+  @objc required override dynamic public init()
+  public typealias ArrayLiteralElement = DTDMessaging.DTDNotificationOptions
+  public typealias Element = DTDMessaging.DTDNotificationOptions
+  public typealias RawValue = Swift.UInt
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class DTDMessaging : ObjectiveC.NSObject {
+  @objc public static var pushNotificationsAllowed: Swift.Bool {
+    @objc get
+    @objc set
+  }
+  @objc public static func startPushService()
+  @objc public static var apnsToken: Foundation.Data? {
+    @objc get
+    @objc set
+  }
+  @objc public static var apnsTokenString: Swift.String? {
+    @objc get
+  }
+  @objc public static var delegate: (any DTDMessaging.DTDMessagingDelegate)? {
+    @objc get
+    @objc set
+  }
+  @objc public static var pushNotificationsOptions: DTDMessaging.DTDNotificationOptions {
+    @objc get
+    @objc set
+  }
+  @objc public static func didReceiveMessage(userInfo: [Swift.AnyHashable : Any], actionIdentifier: Swift.String?)
+  @objc public static func willPresentMessage(userInfo: [Swift.AnyHashable : Any])
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @available(iOS 10.0, *)
+@objc open class DTDMediaAttachmentExtension : UserNotifications.UNNotificationServiceExtension {
+  @objc override dynamic public func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
+  @objc override dynamic public func serviceExtensionTimeWillExpire()
+  @objc override dynamic public init()
+  @objc deinit
+}
+@objc public enum DTDActionType : Swift.Int {
+  case app = 0
+  case url = 1
+  case share = 2
+  case deeplink = 3
+  public init?(rawValue: Swift.Int)
+  public typealias RawValue = Swift.Int
+  public var rawValue: Swift.Int {
+    get
+  }
+}
+extension DTDMessaging.DTDActionType : Swift.Equatable {}
+extension DTDMessaging.DTDActionType : Swift.Hashable {}
+extension DTDMessaging.DTDActionType : Swift.RawRepresentable {}
