@@ -1,0 +1,4632 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTDMessagingDelegate",
+        "printedName": "DTDMessagingDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didRegisterForRemoteNotifications",
+            "printedName": "didRegisterForRemoteNotifications(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Data",
+                "printedName": "Foundation.Data",
+                "usr": "s:10Foundation4DataV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTDMessaging@objc(pl)DTDMessagingDelegate(im)didRegisterForRemoteNotificationsWith:",
+            "mangledName": "$s12DTDMessaging0A8DelegateP33didRegisterForRemoteNotifications4withy10Foundation4DataV_tF",
+            "moduleName": "DTDMessaging",
+            "genericSig": "<τ_0_0 where τ_0_0 : DTDMessaging.DTDMessagingDelegate>",
+            "sugared_genericSig": "<Self where Self : DTDMessaging.DTDMessagingDelegate>",
+            "protocolReq": true,
+            "objc_name": "didRegisterForRemoteNotificationsWith:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didFailToRegisterForRemoteNotifications",
+            "printedName": "didFailToRegisterForRemoteNotifications(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Error",
+                "printedName": "Swift.Error",
+                "usr": "s:s5ErrorP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTDMessaging@objc(pl)DTDMessagingDelegate(im)didFailToRegisterForRemoteNotificationsWith:",
+            "mangledName": "$s12DTDMessaging0A8DelegateP39didFailToRegisterForRemoteNotifications4withys5Error_p_tF",
+            "moduleName": "DTDMessaging",
+            "genericSig": "<τ_0_0 where τ_0_0 : DTDMessaging.DTDMessagingDelegate>",
+            "sugared_genericSig": "<Self where Self : DTDMessaging.DTDMessagingDelegate>",
+            "protocolReq": true,
+            "objc_name": "didFailToRegisterForRemoteNotificationsWith:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveInvisibleNotification",
+            "printedName": "didReceiveInvisibleNotification(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DTDMessage",
+                "printedName": "DTDMessaging.DTDMessage",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTDMessaging@objc(pl)DTDMessagingDelegate(im)didReceiveInvisibleNotificationWith:",
+            "mangledName": "$s12DTDMessaging0A8DelegateP31didReceiveInvisibleNotification4withyAA10DTDMessageC_tF",
+            "moduleName": "DTDMessaging",
+            "genericSig": "<τ_0_0 where τ_0_0 : DTDMessaging.DTDMessagingDelegate>",
+            "sugared_genericSig": "<Self where Self : DTDMessaging.DTDMessagingDelegate>",
+            "protocolReq": true,
+            "objc_name": "didReceiveInvisibleNotificationWith:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveForegroundNotification",
+            "printedName": "didReceiveForegroundNotification(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DTDMessage",
+                "printedName": "DTDMessaging.DTDMessage",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTDMessaging@objc(pl)DTDMessagingDelegate(im)didReceiveForegroundNotificationWith:",
+            "mangledName": "$s12DTDMessaging0A8DelegateP32didReceiveForegroundNotification4withyAA10DTDMessageC_tF",
+            "moduleName": "DTDMessaging",
+            "genericSig": "<τ_0_0 where τ_0_0 : DTDMessaging.DTDMessagingDelegate>",
+            "sugared_genericSig": "<Self where Self : DTDMessaging.DTDMessagingDelegate>",
+            "protocolReq": true,
+            "objc_name": "didReceiveForegroundNotificationWith:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "didOpenRemoteNotification",
+            "printedName": "didOpenRemoteNotification(with:and:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "DTDMessage",
+                "printedName": "DTDMessaging.DTDMessage",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DTDMessaging.DTDActionButton?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDActionButton",
+                    "printedName": "DTDMessaging.DTDActionButton",
+                    "usr": "c:@M@DTDMessaging@objc(cs)DTDActionButton"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTDMessaging@objc(pl)DTDMessagingDelegate(im)didOpenRemoteNotificationWith:and:",
+            "mangledName": "$s12DTDMessaging0A8DelegateP25didOpenRemoteNotification4with3andyAA10DTDMessageC_AA15DTDActionButtonCSgtF",
+            "moduleName": "DTDMessaging",
+            "genericSig": "<τ_0_0 where τ_0_0 : DTDMessaging.DTDMessagingDelegate>",
+            "sugared_genericSig": "<Self where Self : DTDMessaging.DTDMessagingDelegate>",
+            "protocolReq": true,
+            "objc_name": "didOpenRemoteNotificationWith:and:",
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@DTDMessaging@objc(pl)DTDMessagingDelegate",
+        "mangledName": "$s12DTDMessaging0A8DelegateP",
+        "moduleName": "DTDMessaging",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTDMessage",
+        "printedName": "DTDMessage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "payload",
+            "printedName": "payload",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage(py)payload",
+            "mangledName": "$s12DTDMessaging10DTDMessageC7payloadSDys11AnyHashableVypGvp",
+            "moduleName": "DTDMessaging",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.AnyHashable : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "AnyHashable",
+                        "printedName": "Swift.AnyHashable",
+                        "usr": "s:s11AnyHashableV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage(im)payload",
+                "mangledName": "$s12DTDMessaging10DTDMessageC7payloadSDys11AnyHashableVypGvg",
+                "moduleName": "DTDMessaging",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "actionType",
+            "printedName": "actionType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDActionType",
+                "printedName": "DTDMessaging.DTDActionType",
+                "usr": "c:@M@DTDMessaging@E@DTDActionType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage(py)actionType",
+            "mangledName": "$s12DTDMessaging10DTDMessageC10actionTypeAA09DTDActionD0Ovp",
+            "moduleName": "DTDMessaging",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDActionType",
+                    "printedName": "DTDMessaging.DTDActionType",
+                    "usr": "c:@M@DTDMessaging@E@DTDActionType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage(im)actionType",
+                "mangledName": "$s12DTDMessaging10DTDMessageC10actionTypeAA09DTDActionD0Ovg",
+                "moduleName": "DTDMessaging",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "actionString",
+            "printedName": "actionString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage(py)actionString",
+            "mangledName": "$s12DTDMessaging10DTDMessageC12actionStringSSSgvp",
+            "moduleName": "DTDMessaging",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage(im)actionString",
+                "mangledName": "$s12DTDMessaging10DTDMessageC12actionStringSSSgvg",
+                "moduleName": "DTDMessaging",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "badge",
+            "printedName": "badge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage(py)badge",
+            "mangledName": "$s12DTDMessaging10DTDMessageC5badgeSivp",
+            "moduleName": "DTDMessaging",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage(im)badge",
+                "mangledName": "$s12DTDMessaging10DTDMessageC5badgeSivg",
+                "moduleName": "DTDMessaging",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "category",
+            "printedName": "category",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage(py)category",
+            "mangledName": "$s12DTDMessaging10DTDMessageC8categorySSSgvp",
+            "moduleName": "DTDMessaging",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage(im)category",
+                "mangledName": "$s12DTDMessaging10DTDMessageC8categorySSSgvg",
+                "moduleName": "DTDMessaging",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDMessage",
+                "printedName": "DTDMessaging.DTDMessage",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage(im)init",
+            "mangledName": "$s12DTDMessaging10DTDMessageCACycfc",
+            "moduleName": "DTDMessaging",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DTDMessaging@objc(cs)DTDMessage",
+        "mangledName": "$s12DTDMessaging10DTDMessageC",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTDActionButton",
+        "printedName": "DTDActionButton",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "actionType",
+            "printedName": "actionType",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDActionType",
+                "printedName": "DTDMessaging.DTDActionType",
+                "usr": "c:@M@DTDMessaging@E@DTDActionType"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDActionButton(py)actionType",
+            "mangledName": "$s12DTDMessaging15DTDActionButtonC10actionTypeAA0bE0Ovp",
+            "moduleName": "DTDMessaging",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "SetterAccess",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDActionType",
+                    "printedName": "DTDMessaging.DTDActionType",
+                    "usr": "c:@M@DTDMessaging@E@DTDActionType"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDActionButton(im)actionType",
+                "mangledName": "$s12DTDMessaging15DTDActionButtonC10actionTypeAA0bE0Ovg",
+                "moduleName": "DTDMessaging",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "actionString",
+            "printedName": "actionString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDActionButton(py)actionString",
+            "mangledName": "$s12DTDMessaging15DTDActionButtonC12actionStringSSSgvp",
+            "moduleName": "DTDMessaging",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "SetterAccess",
+              "ObjC"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDActionButton(im)actionString",
+                "mangledName": "$s12DTDMessaging15DTDActionButtonC12actionStringSSSgvg",
+                "moduleName": "DTDMessaging",
+                "implicit": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "buttonId",
+            "printedName": "buttonId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDActionButton(py)buttonId",
+            "mangledName": "$s12DTDMessaging15DTDActionButtonC8buttonIdSSvp",
+            "moduleName": "DTDMessaging",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDActionButton(im)buttonId",
+                "mangledName": "$s12DTDMessaging15DTDActionButtonC8buttonIdSSvg",
+                "moduleName": "DTDMessaging",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "text",
+            "printedName": "text",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDActionButton(py)text",
+            "mangledName": "$s12DTDMessaging15DTDActionButtonC4textSSvp",
+            "moduleName": "DTDMessaging",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDActionButton(im)text",
+                "mangledName": "$s12DTDMessaging15DTDActionButtonC4textSSvg",
+                "moduleName": "DTDMessaging",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDActionButton",
+                "printedName": "DTDMessaging.DTDActionButton",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDActionButton"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDActionButton(im)init",
+            "mangledName": "$s12DTDMessaging15DTDActionButtonCACycfc",
+            "moduleName": "DTDMessaging",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DTDMessaging@objc(cs)DTDActionButton",
+        "mangledName": "$s12DTDMessaging15DTDActionButtonC",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "hasMissingDesignatedInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTDNotificationOptions",
+        "printedName": "DTDNotificationOptions",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(py)rawValue",
+            "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC8rawValueSuvp",
+            "moduleName": "DTDMessaging",
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(im)rawValue",
+                "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC8rawValueSuvg",
+                "moduleName": "DTDMessaging",
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDNotificationOptions",
+                "printedName": "DTDMessaging.DTDNotificationOptions",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt",
+                "printedName": "Swift.UInt",
+                "usr": "s:Su"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(im)initWithRawValue:",
+            "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC8rawValueACSu_tcfc",
+            "moduleName": "DTDMessaging",
+            "objc_name": "initWithRawValue:",
+            "declAttributes": [
+              "AccessControl",
+              "Required",
+              "ObjC"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "DTDNotificationOptionBadge",
+            "printedName": "DTDNotificationOptionBadge",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDNotificationOptions",
+                "printedName": "DTDMessaging.DTDNotificationOptions",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cpy)DTDNotificationOptionBadge",
+            "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B11OptionBadgeACvpZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDNotificationOptions",
+                    "printedName": "DTDMessaging.DTDNotificationOptions",
+                    "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cm)DTDNotificationOptionBadge",
+                "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B11OptionBadgeACvgZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DTDNotificationOptionSound",
+            "printedName": "DTDNotificationOptionSound",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDNotificationOptions",
+                "printedName": "DTDMessaging.DTDNotificationOptions",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cpy)DTDNotificationOptionSound",
+            "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B11OptionSoundACvpZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDNotificationOptions",
+                    "printedName": "DTDMessaging.DTDNotificationOptions",
+                    "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cm)DTDNotificationOptionSound",
+                "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B11OptionSoundACvgZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DTDNotificationOptionAlert",
+            "printedName": "DTDNotificationOptionAlert",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDNotificationOptions",
+                "printedName": "DTDMessaging.DTDNotificationOptions",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cpy)DTDNotificationOptionAlert",
+            "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B11OptionAlertACvpZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDNotificationOptions",
+                    "printedName": "DTDMessaging.DTDNotificationOptions",
+                    "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cm)DTDNotificationOptionAlert",
+                "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B11OptionAlertACvgZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DTDNotificationOptionCarPlay",
+            "printedName": "DTDNotificationOptionCarPlay",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDNotificationOptions",
+                "printedName": "DTDMessaging.DTDNotificationOptions",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cpy)DTDNotificationOptionCarPlay",
+            "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B13OptionCarPlayACvpZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDNotificationOptions",
+                    "printedName": "DTDMessaging.DTDNotificationOptions",
+                    "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cm)DTDNotificationOptionCarPlay",
+                "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B13OptionCarPlayACvgZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DTDNotificationOptionCriticalAlert",
+            "printedName": "DTDNotificationOptionCriticalAlert",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDNotificationOptions",
+                "printedName": "DTDMessaging.DTDNotificationOptions",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cpy)DTDNotificationOptionCriticalAlert",
+            "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B19OptionCriticalAlertACvpZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "intro_iOS": "12.0",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "Available"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDNotificationOptions",
+                    "printedName": "DTDMessaging.DTDNotificationOptions",
+                    "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cm)DTDNotificationOptionCriticalAlert",
+                "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B19OptionCriticalAlertACvgZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DTDNotificationOptionProvidesSettings",
+            "printedName": "DTDNotificationOptionProvidesSettings",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDNotificationOptions",
+                "printedName": "DTDMessaging.DTDNotificationOptions",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cpy)DTDNotificationOptionProvidesSettings",
+            "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B22OptionProvidesSettingsACvpZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "intro_iOS": "12.0",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "Available"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDNotificationOptions",
+                    "printedName": "DTDMessaging.DTDNotificationOptions",
+                    "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cm)DTDNotificationOptionProvidesSettings",
+                "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B22OptionProvidesSettingsACvgZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DTDNotificationOptionProvisional",
+            "printedName": "DTDNotificationOptionProvisional",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDNotificationOptions",
+                "printedName": "DTDMessaging.DTDNotificationOptions",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cpy)DTDNotificationOptionProvisional",
+            "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B17OptionProvisionalACvpZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "intro_iOS": "12.0",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "Available"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDNotificationOptions",
+                    "printedName": "DTDMessaging.DTDNotificationOptions",
+                    "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cm)DTDNotificationOptionProvisional",
+                "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B17OptionProvisionalACvgZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "DTDNotificationOptionAnnouncement",
+            "printedName": "DTDNotificationOptionAnnouncement",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDNotificationOptions",
+                "printedName": "DTDMessaging.DTDNotificationOptions",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cpy)DTDNotificationOptionAnnouncement",
+            "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B18OptionAnnouncementACvpZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "ObjC",
+              "Available"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDNotificationOptions",
+                    "printedName": "DTDMessaging.DTDNotificationOptions",
+                    "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(cm)DTDNotificationOptionAnnouncement",
+                "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC0B18OptionAnnouncementACvgZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDNotificationOptions",
+                "printedName": "DTDMessaging.DTDNotificationOptions",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions(im)init",
+            "mangledName": "$s12DTDMessaging22DTDNotificationOptionsCACycfc",
+            "moduleName": "DTDMessaging",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "Required",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions",
+        "mangledName": "$s12DTDMessaging22DTDNotificationOptionsC",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "OptionSet",
+            "printedName": "OptionSet",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDNotificationOptions",
+                    "printedName": "DTDMessaging.DTDNotificationOptions",
+                    "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s9OptionSetP",
+            "mangledName": "$ss9OptionSetP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt",
+                    "printedName": "Swift.UInt",
+                    "usr": "s:Su"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SetAlgebra",
+            "printedName": "SetAlgebra",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "Element",
+                "printedName": "Element",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDNotificationOptions",
+                    "printedName": "DTDMessaging.DTDNotificationOptions",
+                    "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s10SetAlgebraP",
+            "mangledName": "$ss10SetAlgebraP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "ExpressibleByArrayLiteral",
+            "printedName": "ExpressibleByArrayLiteral",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ArrayLiteralElement",
+                "printedName": "ArrayLiteralElement",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDNotificationOptions",
+                    "printedName": "DTDMessaging.DTDNotificationOptions",
+                    "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s25ExpressibleByArrayLiteralP",
+            "mangledName": "$ss25ExpressibleByArrayLiteralP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTDMessaging",
+        "printedName": "DTDMessaging",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "pushNotificationsAllowed",
+            "printedName": "pushNotificationsAllowed",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cpy)pushNotificationsAllowed",
+            "mangledName": "$s12DTDMessagingAAC24pushNotificationsAllowedSbvpZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cm)pushNotificationsAllowed",
+                "mangledName": "$s12DTDMessagingAAC24pushNotificationsAllowedSbvgZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cm)setPushNotificationsAllowed:",
+                "mangledName": "$s12DTDMessagingAAC24pushNotificationsAllowedSbvsZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DTDMessagingAAC24pushNotificationsAllowedSbvMZ",
+                "mangledName": "$s12DTDMessagingAAC24pushNotificationsAllowedSbvMZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "startPushService",
+            "printedName": "startPushService()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cm)startPushService",
+            "mangledName": "$s12DTDMessagingAAC16startPushServiceyyFZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "apnsToken",
+            "printedName": "apnsToken",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Foundation.Data?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Data",
+                    "printedName": "Foundation.Data",
+                    "usr": "s:10Foundation4DataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cpy)apnsToken",
+            "mangledName": "$s12DTDMessagingAAC9apnsToken10Foundation4DataVSgvpZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cm)apnsToken",
+                "mangledName": "$s12DTDMessagingAAC9apnsToken10Foundation4DataVSgvgZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Foundation.Data?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Data",
+                        "printedName": "Foundation.Data",
+                        "usr": "s:10Foundation4DataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cm)setApnsToken:",
+                "mangledName": "$s12DTDMessagingAAC9apnsToken10Foundation4DataVSgvsZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DTDMessagingAAC9apnsToken10Foundation4DataVSgvMZ",
+                "mangledName": "$s12DTDMessagingAAC9apnsToken10Foundation4DataVSgvMZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "apnsTokenString",
+            "printedName": "apnsTokenString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cpy)apnsTokenString",
+            "mangledName": "$s12DTDMessagingAAC15apnsTokenStringSSSgvpZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cm)apnsTokenString",
+                "mangledName": "$s12DTDMessagingAAC15apnsTokenStringSSSgvgZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DTDMessaging.DTDMessagingDelegate?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDMessagingDelegate",
+                    "printedName": "DTDMessaging.DTDMessagingDelegate",
+                    "usr": "c:@M@DTDMessaging@objc(pl)DTDMessagingDelegate"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cpy)delegate",
+            "mangledName": "$s12DTDMessagingAAC8delegateAA0A8Delegate_pSgvpZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DTDMessaging.DTDMessagingDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DTDMessagingDelegate",
+                        "printedName": "DTDMessaging.DTDMessagingDelegate",
+                        "usr": "c:@M@DTDMessaging@objc(pl)DTDMessagingDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cm)delegate",
+                "mangledName": "$s12DTDMessagingAAC8delegateAA0A8Delegate_pSgvgZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "DTDMessaging.DTDMessagingDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DTDMessagingDelegate",
+                        "printedName": "DTDMessaging.DTDMessagingDelegate",
+                        "usr": "c:@M@DTDMessaging@objc(pl)DTDMessagingDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cm)setDelegate:",
+                "mangledName": "$s12DTDMessagingAAC8delegateAA0A8Delegate_pSgvsZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DTDMessagingAAC8delegateAA0A8Delegate_pSgvMZ",
+                "mangledName": "$s12DTDMessagingAAC8delegateAA0A8Delegate_pSgvMZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pushNotificationsOptions",
+            "printedName": "pushNotificationsOptions",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDNotificationOptions",
+                "printedName": "DTDMessaging.DTDNotificationOptions",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cpy)pushNotificationsOptions",
+            "mangledName": "$s12DTDMessagingAAC24pushNotificationsOptionsAA015DTDNotificationD0CvpZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDNotificationOptions",
+                    "printedName": "DTDMessaging.DTDNotificationOptions",
+                    "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cm)pushNotificationsOptions",
+                "mangledName": "$s12DTDMessagingAAC24pushNotificationsOptionsAA015DTDNotificationD0CvgZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDNotificationOptions",
+                    "printedName": "DTDMessaging.DTDNotificationOptions",
+                    "usr": "c:@M@DTDMessaging@objc(cs)DTDNotificationOptions"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cm)setPushNotificationsOptions:",
+                "mangledName": "$s12DTDMessagingAAC24pushNotificationsOptionsAA015DTDNotificationD0CvsZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "declAttributes": [
+                  "Final",
+                  "ObjC"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DTDMessagingAAC24pushNotificationsOptionsAA015DTDNotificationD0CvMZ",
+                "mangledName": "$s12DTDMessagingAAC24pushNotificationsOptionsAA015DTDNotificationD0CvMZ",
+                "moduleName": "DTDMessaging",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "didReceiveMessage",
+            "printedName": "didReceiveMessage(userInfo:actionIdentifier:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cm)didReceiveMessageWithUserInfo:actionIdentifier:",
+            "mangledName": "$s12DTDMessagingAAC17didReceiveMessage8userInfo16actionIdentifierySDys11AnyHashableVypG_SSSgtFZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "objc_name": "didReceiveMessageWithUserInfo:actionIdentifier:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "willPresentMessage",
+            "printedName": "willPresentMessage(userInfo:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.AnyHashable : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AnyHashable",
+                    "printedName": "Swift.AnyHashable",
+                    "usr": "s:s11AnyHashableV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(cm)willPresentMessageWithUserInfo:",
+            "mangledName": "$s12DTDMessagingAAC18willPresentMessage8userInfoySDys11AnyHashableVypG_tFZ",
+            "moduleName": "DTDMessaging",
+            "static": true,
+            "objc_name": "willPresentMessageWithUserInfo:",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDMessaging",
+                "printedName": "DTDMessaging.DTDMessaging",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging(im)init",
+            "mangledName": "$s12DTDMessagingAACABycfc",
+            "moduleName": "DTDMessaging",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DTDMessaging@objc(cs)DTDMessaging",
+        "mangledName": "$s12DTDMessagingAAC",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTDMediaAttachmentExtension",
+        "printedName": "DTDMediaAttachmentExtension",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "didReceive",
+            "printedName": "didReceive(_:withContentHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationRequest",
+                "printedName": "UserNotifications.UNNotificationRequest",
+                "usr": "c:objc(cs)UNNotificationRequest"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationContent) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationContent",
+                    "printedName": "UserNotifications.UNNotificationContent",
+                    "usr": "c:objc(cs)UNNotificationContent"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMediaAttachmentExtension(im)didReceiveNotificationRequest:withContentHandler:",
+            "mangledName": "$s12DTDMessaging27DTDMediaAttachmentExtensionC10didReceive_18withContentHandlerySo21UNNotificationRequestC_ySo0jH0CctF",
+            "moduleName": "DTDMessaging",
+            "overriding": true,
+            "objc_name": "didReceiveNotificationRequest:withContentHandler:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "serviceExtensionTimeWillExpire",
+            "printedName": "serviceExtensionTimeWillExpire()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMediaAttachmentExtension(im)serviceExtensionTimeWillExpire",
+            "mangledName": "$s12DTDMessaging27DTDMediaAttachmentExtensionC07serviceD14TimeWillExpireyyF",
+            "moduleName": "DTDMessaging",
+            "overriding": true,
+            "objc_name": "serviceExtensionTimeWillExpire",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "DTDMediaAttachmentExtension",
+                "printedName": "DTDMessaging.DTDMediaAttachmentExtension",
+                "usr": "c:@M@DTDMessaging@objc(cs)DTDMediaAttachmentExtension"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@DTDMessaging@objc(cs)DTDMediaAttachmentExtension(im)init",
+            "mangledName": "$s12DTDMessaging27DTDMediaAttachmentExtensionCACycfc",
+            "moduleName": "DTDMessaging",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@DTDMessaging@objc(cs)DTDMediaAttachmentExtension",
+        "mangledName": "$s12DTDMessaging27DTDMediaAttachmentExtensionC",
+        "moduleName": "DTDMessaging",
+        "isOpen": true,
+        "intro_iOS": "10.0",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "Available"
+        ],
+        "superclassUsr": "c:objc(cs)UNNotificationServiceExtension",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UserNotifications.UNNotificationServiceExtension",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "DTDActionType",
+        "printedName": "DTDActionType",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "app",
+            "printedName": "app",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTDMessaging.DTDActionType.Type) -> DTDMessaging.DTDActionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDActionType",
+                    "printedName": "DTDMessaging.DTDActionType",
+                    "usr": "c:@M@DTDMessaging@E@DTDActionType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTDMessaging.DTDActionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DTDActionType",
+                        "printedName": "DTDMessaging.DTDActionType",
+                        "usr": "c:@M@DTDMessaging@E@DTDActionType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DTDMessaging@E@DTDActionType@DTDActionTypeApp",
+            "mangledName": "$s12DTDMessaging13DTDActionTypeO3appyA2CmF",
+            "moduleName": "DTDMessaging",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 0
+          },
+          {
+            "kind": "Var",
+            "name": "url",
+            "printedName": "url",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTDMessaging.DTDActionType.Type) -> DTDMessaging.DTDActionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDActionType",
+                    "printedName": "DTDMessaging.DTDActionType",
+                    "usr": "c:@M@DTDMessaging@E@DTDActionType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTDMessaging.DTDActionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DTDActionType",
+                        "printedName": "DTDMessaging.DTDActionType",
+                        "usr": "c:@M@DTDMessaging@E@DTDActionType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DTDMessaging@E@DTDActionType@DTDActionTypeUrl",
+            "mangledName": "$s12DTDMessaging13DTDActionTypeO3urlyA2CmF",
+            "moduleName": "DTDMessaging",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 1
+          },
+          {
+            "kind": "Var",
+            "name": "share",
+            "printedName": "share",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTDMessaging.DTDActionType.Type) -> DTDMessaging.DTDActionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDActionType",
+                    "printedName": "DTDMessaging.DTDActionType",
+                    "usr": "c:@M@DTDMessaging@E@DTDActionType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTDMessaging.DTDActionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DTDActionType",
+                        "printedName": "DTDMessaging.DTDActionType",
+                        "usr": "c:@M@DTDMessaging@E@DTDActionType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DTDMessaging@E@DTDActionType@DTDActionTypeShare",
+            "mangledName": "$s12DTDMessaging13DTDActionTypeO5shareyA2CmF",
+            "moduleName": "DTDMessaging",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 2
+          },
+          {
+            "kind": "Var",
+            "name": "deeplink",
+            "printedName": "deeplink",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(DTDMessaging.DTDActionType.Type) -> DTDMessaging.DTDActionType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDActionType",
+                    "printedName": "DTDMessaging.DTDActionType",
+                    "usr": "c:@M@DTDMessaging@E@DTDActionType"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "DTDMessaging.DTDActionType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "DTDActionType",
+                        "printedName": "DTDMessaging.DTDActionType",
+                        "usr": "c:@M@DTDMessaging@E@DTDActionType"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "c:@M@DTDMessaging@E@DTDActionType@DTDActionTypeDeeplink",
+            "mangledName": "$s12DTDMessaging13DTDActionTypeO8deeplinkyA2CmF",
+            "moduleName": "DTDMessaging",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "fixedbinaryorder": 3
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "DTDMessaging.DTDActionType?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "DTDActionType",
+                    "printedName": "DTDMessaging.DTDActionType",
+                    "usr": "c:@M@DTDMessaging@E@DTDActionType"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12DTDMessaging13DTDActionTypeO8rawValueACSgSi_tcfc",
+            "mangledName": "$s12DTDMessaging13DTDActionTypeO8rawValueACSgSi_tcfc",
+            "moduleName": "DTDMessaging",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12DTDMessaging13DTDActionTypeO8rawValueSivp",
+            "mangledName": "$s12DTDMessaging13DTDActionTypeO8rawValueSivp",
+            "moduleName": "DTDMessaging",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12DTDMessaging13DTDActionTypeO8rawValueSivg",
+                "mangledName": "$s12DTDMessaging13DTDActionTypeO8rawValueSivg",
+                "moduleName": "DTDMessaging",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "c:@M@DTDMessaging@E@DTDActionType",
+        "mangledName": "$s12DTDMessaging13DTDActionTypeO",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "enumRawTypeName": "Int",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "DTDMessaging"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Extensions\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 171,
+      "length": 6,
+      "value": "\"true\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Extensions\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 179,
+      "length": 3,
+      "value": "\"t\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Extensions\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 184,
+      "length": 5,
+      "value": "\"yes\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Extensions\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 191,
+      "length": 3,
+      "value": "\"y\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Extensions\/String.swift",
+      "kind": "BooleanLiteral",
+      "offset": 215,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Extensions\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 234,
+      "length": 7,
+      "value": "\"false\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Extensions\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 3,
+      "value": "\"f\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Extensions\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 248,
+      "length": 4,
+      "value": "\"no\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Extensions\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 254,
+      "length": 3,
+      "value": "\"n\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Extensions\/String.swift",
+      "kind": "StringLiteral",
+      "offset": 259,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Extensions\/String.swift",
+      "kind": "BooleanLiteral",
+      "offset": 282,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Extensions\/String.swift",
+      "kind": "IntegerLiteral",
+      "offset": 373,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RoutingService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 782,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RoutingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2262,
+      "length": 72,
+      "value": "\"[DevToDev] Intergation error: Installed wrong version of DTDAnalytics!\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RoutingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2349,
+      "length": 101,
+      "value": "\"Please integrate new version from https:\/\/github.com\/devtodev-analytics\/ios-sdk-2.0\/releases\/latest\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RoutingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2465,
+      "length": 64,
+      "value": "\"Or clear cash (Remove DerivedData folder and rebuild project).\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RoutingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2599,
+      "length": 12,
+      "value": "\"%{public}@\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RoutingService.swift",
+      "kind": "StringLiteral",
+      "offset": 2660,
+      "length": 4,
+      "value": "\"%@\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Registration\/UINotificationRegistration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1101,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RegistrationService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 670,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RegistrationService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1578,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RegistrationService.swift",
+      "kind": "Array",
+      "offset": 2385,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RegistrationService.swift",
+      "kind": "StringLiteral",
+      "offset": 2446,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RegistrationService.swift",
+      "kind": "Array",
+      "offset": 2533,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RegistrationService.swift",
+      "kind": "StringLiteral",
+      "offset": 2597,
+      "length": 9,
+      "value": "\"buttons\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RegistrationService.swift",
+      "kind": "StringLiteral",
+      "offset": 2750,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RegistrationService.swift",
+      "kind": "StringLiteral",
+      "offset": 2759,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RegistrationService.swift",
+      "kind": "StringLiteral",
+      "offset": 2835,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RegistrationService.swift",
+      "kind": "StringLiteral",
+      "offset": 2846,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/RegistrationService.swift",
+      "kind": "StringLiteral",
+      "offset": 2932,
+      "length": 16,
+      "value": "\"activationMode\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingProxy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1942,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingProxy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2178,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingProxy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3302,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingProxy.swift",
+      "kind": "Array",
+      "offset": 3985,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingProxy.swift",
+      "kind": "Array",
+      "offset": 4268,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingProxy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4862,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingProxy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5392,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingProxy.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5480,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/AppDelegatePushIntegration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5186,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/AppDelegatePushIntegration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5221,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/AppDelegatePushIntegration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5792,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/AppDelegatePushIntegration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5846,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/AppDelegatePushIntegration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6142,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/AppDelegatePushIntegration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6186,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/AppDelegatePushIntegration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7343,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 981,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "Array",
+      "offset": 1040,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1648,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2527,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3492,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3532,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6177,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6203,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "Array",
+      "offset": 6700,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "StringLiteral",
+      "offset": 6858,
+      "length": 4,
+      "value": "\"_k\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7157,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7161,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7413,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7417,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7547,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7611,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "FloatLiteral",
+      "offset": 7871,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9129,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9231,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9307,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9384,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9572,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9669,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9789,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "StringLiteral",
+      "offset": 11078,
+      "length": 18,
+      "value": "\"phobos.apple.com\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "StringLiteral",
+      "offset": 11112,
+      "length": 18,
+      "value": "\"itunes.apple.com\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "StringLiteral",
+      "offset": 11169,
+      "length": 37,
+      "value": "\"http:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "StringLiteral",
+      "offset": 11191,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "StringLiteral",
+      "offset": 11194,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "StringLiteral",
+      "offset": 11205,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "StringLiteral",
+      "offset": 11240,
+      "length": 5,
+      "value": "\"tel\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "StringLiteral",
+      "offset": 11263,
+      "length": 5,
+      "value": "\"sms\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "StringLiteral",
+      "offset": 11407,
+      "length": 15,
+      "value": "\"+-.0123456789\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "StringLiteral",
+      "offset": 11644,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "StringLiteral",
+      "offset": 11704,
+      "length": 5,
+      "value": "\"sms\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "StringLiteral",
+      "offset": 11713,
+      "length": 8,
+      "value": "\"sms:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Services\/PushProcessingService.swift",
+      "kind": "StringLiteral",
+      "offset": 11724,
+      "length": 8,
+      "value": "\"tel:\/\/\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Swizzle\/Swizzler.swift",
+      "kind": "Dictionary",
+      "offset": 283,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Swizzle\/Swizzler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 960,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Swizzle\/Swizzler.swift",
+      "kind": "BooleanLiteral",
+      "offset": 967,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 325,
+      "length": 4,
+      "value": "\"_u\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 390,
+      "length": 4,
+      "value": "\"_s\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 457,
+      "length": 4,
+      "value": "\"_d\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 791,
+      "length": 5,
+      "value": "\"aps\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 853,
+      "length": 7,
+      "value": "\"badge\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 935,
+      "length": 4,
+      "value": "\"_b\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 1111,
+      "length": 5,
+      "value": "\"aps\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 1176,
+      "length": 10,
+      "value": "\"category\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 1334,
+      "length": 5,
+      "value": "\"aps\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 1396,
+      "length": 19,
+      "value": "\"content-available\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessage.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1479,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 1638,
+      "length": 4,
+      "value": "\"_u\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 1704,
+      "length": 4,
+      "value": "\"_s\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 1773,
+      "length": 4,
+      "value": "\"_d\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessage.swift",
+      "kind": "StringLiteral",
+      "offset": 93,
+      "length": 10,
+      "value": "\"DTDMessaging.DTDMessage\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/NotificationCategory.swift",
+      "kind": "Array",
+      "offset": 358,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/NotificationCategory.swift",
+      "kind": "Array",
+      "offset": 830,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/NotificationCategory.swift",
+      "kind": "Array",
+      "offset": 1105,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionButton.swift",
+      "kind": "StringLiteral",
+      "offset": 847,
+      "length": 14,
+      "value": "\"_interactive\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionButton.swift",
+      "kind": "StringLiteral",
+      "offset": 924,
+      "length": 9,
+      "value": "\"buttons\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionButton.swift",
+      "kind": "StringLiteral",
+      "offset": 1012,
+      "length": 4,
+      "value": "\"id\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionButton.swift",
+      "kind": "StringLiteral",
+      "offset": 1076,
+      "length": 4,
+      "value": "\"_u\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionButton.swift",
+      "kind": "StringLiteral",
+      "offset": 1163,
+      "length": 4,
+      "value": "\"_u\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionButton.swift",
+      "kind": "StringLiteral",
+      "offset": 1209,
+      "length": 4,
+      "value": "\"_s\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionButton.swift",
+      "kind": "StringLiteral",
+      "offset": 1298,
+      "length": 4,
+      "value": "\"_s\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionButton.swift",
+      "kind": "StringLiteral",
+      "offset": 1344,
+      "length": 4,
+      "value": "\"_d\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionButton.swift",
+      "kind": "StringLiteral",
+      "offset": 1436,
+      "length": 4,
+      "value": "\"_d\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionButton.swift",
+      "kind": "StringLiteral",
+      "offset": 93,
+      "length": 15,
+      "value": "\"DTDMessaging.DTDActionButton\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 142,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 175,
+      "length": 9,
+      "value": "\"isAllow\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingLogic.swift",
+      "kind": "BooleanLiteral",
+      "offset": 929,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingLogic.swift",
+      "kind": "BooleanLiteral",
+      "offset": 967,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingLogic.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1674,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingLogic.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2393,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingLogic.swift",
+      "kind": "StringLiteral",
+      "offset": 2451,
+      "length": 64,
+      "value": "\"Do not use DTDMessaging module before initialize DTDAnalytics!\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingLogic.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3520,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingLogic.swift",
+      "kind": "StringLiteral",
+      "offset": 4195,
+      "length": 10,
+      "value": "\"%02.2hhx\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingLogic.swift",
+      "kind": "StringLiteral",
+      "offset": 4608,
+      "length": 10,
+      "value": "\"%02.2hhx\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingLogic.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5290,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingLogic.swift",
+      "kind": "Array",
+      "offset": 5629,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Logic\/MessagingLogic.swift",
+      "kind": "Array",
+      "offset": 5737,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/NotificationButton.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 12,
+      "value": "\"background\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/NotificationButton.swift",
+      "kind": "Array",
+      "offset": 687,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/NotificationButton.swift",
+      "kind": "StringLiteral",
+      "offset": 719,
+      "length": 12,
+      "value": "\"foreground\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 364,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 369,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 464,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 469,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 564,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 569,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 664,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 669,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 799,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 804,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 937,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 942,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1070,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1075,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1204,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1209,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1276,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDNotificationOptions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1281,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 143,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 157,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 176,
+      "length": 10,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 143,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 157,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 176,
+      "length": 10,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 143,
+      "length": 4,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 157,
+      "length": 9,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "IntegerLiteral",
+      "offset": 176,
+      "length": 10,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 389,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 428,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 889,
+      "length": 4,
+      "value": "\"_k\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1075,
+      "length": 5,
+      "value": "\"_fg\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1178,
+      "length": 5,
+      "value": "\"_fg\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1243,
+      "length": 3,
+      "value": "\"1\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1273,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1360,
+      "length": 5,
+      "value": "\"aps\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1424,
+      "length": 7,
+      "value": "\"sound\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1454,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1485,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1572,
+      "length": 5,
+      "value": "\"aps\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1636,
+      "length": 7,
+      "value": "\"alert\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1666,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1697,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1788,
+      "length": 5,
+      "value": "\"aps\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1850,
+      "length": 7,
+      "value": "\"badge\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 1933,
+      "length": 4,
+      "value": "\"_b\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Domain\/DTDNotificationResponse.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 23,
+      "value": "\"DTDMessaging.DTDNotificationResponse\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Storage\/MessagingPreferences.swift",
+      "kind": "StringLiteral",
+      "offset": 144,
+      "length": 6,
+      "value": "\"DTD_\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Storage\/MessagingPreferences.swift",
+      "kind": "StringLiteral",
+      "offset": 258,
+      "length": 30,
+      "value": "\"DTDMessagingSwizzlingEnabled\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Storage\/MessagingPreferences.swift",
+      "kind": "BooleanLiteral",
+      "offset": 455,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Storage\/MessagingPreferences.swift",
+      "kind": "BooleanLiteral",
+      "offset": 513,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Storage\/MessagingPreferences.swift",
+      "kind": "StringLiteral",
+      "offset": 1841,
+      "length": 24,
+      "value": "\"DTDNotificationStorage\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Storage\/MessagingPreferences.swift",
+      "kind": "StringLiteral",
+      "offset": 1894,
+      "length": 23,
+      "value": "\"DTDNotificationEvents\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Storage\/MessagingPreferences.swift",
+      "kind": "Array",
+      "offset": 2105,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Storage\/MessagingPreferences.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2253,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Storage\/MessagingPreferences.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2664,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Storage\/MessagingPreferences.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3343,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Storage\/MessagingPreferences.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3897,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Storage\/MessagingPreferences.swift",
+      "kind": "FloatLiteral",
+      "offset": 4004,
+      "length": 6,
+      "value": "1000.0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/NotificationCenterPushIntegration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4366,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/NotificationCenterPushIntegration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4401,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/NotificationCenterPushIntegration.swift",
+      "kind": "Array",
+      "offset": 4466,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/NotificationCenterPushIntegration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5004,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/NotificationCenterPushIntegration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5052,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/NotificationCenterPushIntegration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5307,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/NotificationCenterPushIntegration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5420,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/NotificationCenterPushIntegration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6767,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/NotificationCenterPushIntegration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7453,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/NotificationCenterPushIntegration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7488,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/NotificationCenterPushIntegration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7980,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/NotificationCenterPushIntegration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8028,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/NotificationCenterPushIntegration.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8239,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/NotificationCenterPushIntegration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8283,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/Internal\/Integration\/NotificationCenterPushIntegration.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9228,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessaging.swift",
+      "kind": "StringLiteral",
+      "offset": 954,
+      "length": 10,
+      "value": "\"%02.2hhx\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDMessaging.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1924,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/Attachments\/DTDMediaAttachmentExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 19,
+      "value": "\"_mediaAttachments\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/Attachments\/DTDMediaAttachmentExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 1009,
+      "length": 5,
+      "value": "\"url\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/Attachments\/DTDMediaAttachmentExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 3206,
+      "length": 35,
+      "value": "\"-\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/Attachments\/DTDMediaAttachmentExtension.swift",
+      "kind": "StringLiteral",
+      "offset": 3240,
+      "length": 3,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 136,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 153,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 172,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 194,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionType.swift",
+      "kind": "StringLiteral",
+      "offset": 284,
+      "length": 5,
+      "value": "\"APP\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionType.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 5,
+      "value": "\"URL\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionType.swift",
+      "kind": "StringLiteral",
+      "offset": 350,
+      "length": 7,
+      "value": "\"SHARE\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionType.swift",
+      "kind": "StringLiteral",
+      "offset": 389,
+      "length": 10,
+      "value": "\"DEEPLINK\""
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 136,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 153,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 172,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/mobile\/Develop\/workspace\/Dev-2-Dev_SDK_Apple_develop\/messaging\/Sources\/External\/DTDActionType.swift",
+      "kind": "IntegerLiteral",
+      "offset": 194,
+      "length": 1,
+      "value": "3"
+    }
+  ]
+}
