@@ -1,10 +1,23 @@
 Latest Version
 --------------
-##### _May 8, 2026_ - [v2.6.1](https://github.com/devtodev-analytics/ios-sdk-2.0/releases/latest)
+##### _May 18, 2026_ - [v2.6.2](https://github.com/devtodev-analytics/ios-sdk-2.0/releases/latest)
 
 
 Installation
 ------------
+
+## Install via Swift Package Manager
+
+1. In Xcode, open your project and go to **File → Add Package Dependencies…**
+2. Enter the repository URL:
+https://github.com/devtodev-analytics/ios-sdk-2.0
+3. Choose the version rule — **Up to Next Major Version** from `2.6.2` is recommended.
+4. Select the products you need:
+   - **DTDAnalytics** — analytics SDK (required)
+   - **DTDMessaging** — push notifications (optional, requires DTDAnalytics)
+5. Click **Add Package**.
+
+> ⚠️ If you use **DTDMessaging**, make sure to add **both** products to your target. SPM does not pull DTDAnalytics in automatically when DTDMessaging is selected.
 
 ## CocoaPods
 ```
